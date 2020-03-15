@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="dist/css/transport.css">
+    <script src="dist/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+</head>
+<body><br>
+    <div class="container contain">
+        <div class="row first">
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+                <h3 class="text-info">Manage Transport-3</h3>
+            </div><br>
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+        </div> <!--1st row close-->
+        <div class="row">
+            <div class="col-md-3 ">
+              <p class="well text-danger well1">New Transport</p>
+              <div class="nav panel slider1"><br>
+                <label>Transport Number</label>
+                <input type="text" class="form-control"><br>
+                <label>Root Name</label>
+                <input type="text" class="form-control"><br>
+                <label>Size</label>
+                <select class="form-control">
+                    <option></option>
+                </select><br>
+                <label>Drive Name</label>
+                <input type="text" class="form-control"><br>
+                <label>Drive Mobile No</label>
+                <input type="text" class="form-control"><br>
+               
+                <button class="btn btn-info btn-block">Save</button>
+           </div>
+        </div>
+            <div class="col-md-9">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr class="well text-danger">
+                            <th>T-id</th>
+                            <th>T-Number</th>
+                            <th>Type</th>
+                            <th>Transport Root</th>
+                            <th>Driver</th>
+                            <th>Mobile No</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="first2">
+                            <td>3</td>
+                            <td>UP-44444</td>
+                            <td>Medium</td>
+                            <td>Marathahalli</td>
+                            <td>Deepak</td>
+                            <td>999999999</td>
+                            <td><button class="btn btn-danger"><i class="glyphicon glyphicon-plus"></i>
+                                <a href="#" data-toggle="modal" data-target="#contact"> Root Master</a></button></td>
+                        </tr>
+                        <tr class="first2">
+                            <td>2</td>
+                            <td>UP-44444</td>
+                            <td>Medium</td>
+                            <td>Marathahalli</td>
+                            <td>Deepak</td>
+                            <td>999999999</td>
+                            <td><button class="btn btn-danger"><i class="glyphicon glyphicon-plus"></i> Root Master</button></td>
+                        </tr>
+                        <tr class="first2">
+                            <td>1</td>
+                            <td>UP-44444</td>
+                            <td>Medium</td>
+                            <td>Marathahalli</td>
+                            <td>Deepak</td>
+                            <td>999999999</td>
+                            <td><button class="btn btn-danger"><i class="glyphicon glyphicon-plus"></i> Root Master</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="modal fade" id="contact">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header"><h3>Add/View RootMAster Under-Marathahalli</h3></div>
+                            <div class="modal-body">
+                                <form action="#" method="post">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Root Master Name</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label>Cost</label>
+                                         <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                     <div class="col-md-6">
+                                         <label>From Location</label>
+                                         <input type="text" class="form-control">
+                                     </div>
+                                     <div class="col-md-6">
+                                         <label>To Location</label>
+                                      <input type="text" class="form-control">
+                                     </div>
+                                 </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+ 
+</body>
+</html>
